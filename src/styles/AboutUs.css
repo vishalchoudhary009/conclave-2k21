@@ -1,0 +1,108 @@
+.AboutUs {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  /* align-items: center; */
+  margin: auto;
+  width: 100%;
+}
+
+.Heading {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2em;
+  line-height: 150%;
+  color: #1f6473;
+}
+
+.Material {
+}
+
+.Box {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0em 1em 0em;
+}
+
+.Logo {
+  width: 10%;
+}
+
+.Topic {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #474747;
+}
+
+.Info {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+
+  text-align: justify;
+
+  color: #6d6d6d;
+}
+
+@media (min-width: 1000px) {
+  .AboutUs {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* align-items: center; */
+    margin: auto;
+    padding-bottom: 3em;
+  }
+
+  .Heading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 150%;
+    color: #1f6473;
+    padding-bottom: 0.7em;
+  }
+
+  .Material {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Box {
+    display: flex;
+    flex-direction: column;
+    padding: 0em 2em 0em 2em;
+  }
+
+  .Logo {
+    width: 15%;
+  }
+
+  .Topic {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #474747;
+  }
+
+  .Info {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: justify;
+
+    color: #6d6d6d;
+  }
+}
